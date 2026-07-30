@@ -251,9 +251,5 @@ POST /predict/batch     → classify list of prompts
 ---
 
 ## Authors
+Deepak Kumar
 
-- Student 1 — ML Engineer (classifier, evaluation)
-- Student 2 — RAG Engineer (vector store, pipeline)
-- Student 3 — Demo Lead (Streamlit, presentation)
-
-Dublin Business School | MSc Artificial Intelligence | NLP Module
