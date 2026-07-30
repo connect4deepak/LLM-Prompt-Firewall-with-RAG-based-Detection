@@ -123,7 +123,7 @@ python3 scripts/01_download_data.py
 python3 scripts/01_download_data.py --offline
 ```
 
-✅ Output: `data/processed/train.csv`, `val.csv`, `test.csv`
+Output: `data/processed/train.csv`, `val.csv`, `test.csv`
 
 ---
 
@@ -137,7 +137,7 @@ python3 scripts/02_train.py
 - Trains 3 epochs with early stopping
 - **GPU:** ~5 min | **CPU:** ~60–90 min
 
-✅ Output: `models/distilbert-firewall/`
+Output: `models/distilbert-firewall/`
 
 ---
 
@@ -151,7 +151,7 @@ python3 scripts/03_build_vectorstore.py
 - Persists ChromaDB index to `vectorstore/`
 - Takes ~2–5 min
 
-✅ Output: `vectorstore/`
+Output: `vectorstore/`
 
 ---
 
